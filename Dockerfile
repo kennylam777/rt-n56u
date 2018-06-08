@@ -33,7 +33,9 @@ RUN apt-get install -qy \
 	vim \
   	autopoint \
 	gperf \
-	python-docutils
+	python-docutils \
+	sudo \
+	kmod
 
 
 RUN git clone https://bitbucket.org/padavan/rt-n56u.git /opt/rt-n56u
